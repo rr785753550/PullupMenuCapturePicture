@@ -24,7 +24,6 @@ public class CapturePicture extends ImageTestCase {
 	 */
 
 	public void testCapture() throws UiObjectNotFoundException {
-		UiDevice.getInstance().pressHome();
 		// 打开上拉菜单
 		UiDevice.getInstance().swipe(540, 1918, 540, 1318, 50);
 		sleep(1000);
