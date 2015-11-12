@@ -1,0 +1,89 @@
+Added file D:\software\test\workspace\Uiautomator-Java\PullupMenuCapturePicture\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenuCapturePicture\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for CapturePicture...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\software\test\workspace\Uiautomator-Java\PullupMenuCapturePicture\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\software\test\workspace\Uiautomator-Java\PullupMenuCapturePicture\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenuCapturePicture\bin\classes
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenuCapturePicture\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenuCapturePicture\bin\CapturePicture.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1729 KB/s (5315 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.CapturePicture:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCapture
+
+INSTRUMENTATION_STATUS: class=com.ramos.CapturePicture
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCapture
+
+INSTRUMENTATION_STATUS: class=com.ramos.CapturePicture
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 10.297
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
